@@ -1,0 +1,59 @@
+body{
+    background-color: #f2ebe9;
+  }
+  
+  h1{
+    text-align:center;
+  }
+  
+
+  h2{
+    text-align:center;
+    color: #eddcd9;
+  }
+
+  h5{
+    text-align:center;
+    color: #264143;
+  }
+
+  
+  .main-container{
+    margin-top: 80px;
+    text-align: center;
+    background-color: #eddcd9;
+    padding: 10%;
+    width: 600px;
+    height: max-content;
+    border-radius: 5%;
+  }
+  
+  .profile-button{
+    background-color: #e99f4c;
+    color: #eddcd9;
+    padding: 2%;
+  }
+
+  .profile-button:hover{
+    background-color: #de5499;
+    color: #eddcd9;
+  }
+
+  .button-myuser {
+    width: 25%;
+    height: 55px;
+    border-radius: 5px;
+    margin: 0px 20px;
+    background-color: #264143;
+    font-size: medium;
+    font-weight: 500;
+    color: #eddcd9;
+    align-items: center;
+    padding: 2%;
+  }
+
+  .button-myuser:hover {
+    background-color: #e99f4c;
+    color: #eddcd9;
+    border: 1px solid #de5499;
+  }

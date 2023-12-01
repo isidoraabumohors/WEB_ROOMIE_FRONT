@@ -1,0 +1,124 @@
+body{
+    background-color: #f2ebe9;
+}
+
+h1 { color: #264143; 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 40px;
+    font-weight: bold; 
+    letter-spacing: -2px; 
+    line-height: 1; 
+    text-align: center; }
+
+h2 { color: #264143; 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 30px;
+    font-weight: normal; 
+    letter-spacing: -2px; 
+    line-height: 1; 
+    text-align: center; }
+
+.admin-view-container{
+    background-color: #eddcd9;
+    margin-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    width: 400px;
+    gap: 5px;
+}
+
+.chat-name{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.textsent{
+    text-align: right;
+    background-color: #e99f4c;
+    color: #eddcd9;
+    border-radius: 10px;
+    padding: 8px;
+    margin-bottom: 0px;
+    /* max-width: 70%; */
+}
+
+.textreceived{
+    text-align: left;
+    background-color: #de5499;
+    color: #eddcd9;
+    border-radius: 10px;
+    padding: 8px;
+    margin-bottom: 0px;
+    /* max-width: 70%; */
+}
+
+.datesent{
+    margin-top: 2px;
+    margin-bottom: 5px;
+    color: black;
+    font-size: small;
+    text-align: right;
+}
+
+.datereceived{
+    text-align: left;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    color: black;
+    font-size: small;
+}
+
+/* .message{
+    margin: 5px;
+    margin-bottom: 2px;
+    max-height: 300px;
+    align-items: flex-start;
+} */
+
+.message {
+    background-color: #e0e0e0; /* Color de fondo del rectángulo del mensaje */
+    border: 1px solid #ccc; /* Borde del rectángulo del mensaje */
+    border-radius: 8px; /* Bordes redondeados del rectángulo del mensaje */
+    padding: 10px; /* Espaciado interno del rectángulo del mensaje */
+    margin-bottom: 3px; /* Espaciado entre mensajes */
+}
+
+.chat-box{
+    background-color: white;
+    height: 25px;
+    margin: 5px;
+}
+
+.send-message-button{
+    background-color: #264143;
+    color: #eddcd9;
+    border-radius: 10%;
+    padding: 8px 20px;
+    margin: 5px;
+}
+
+.message-input{
+    margin-top: 15px;
+}
+
+.delete-button{
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 20px 20px;
+    background-color: #264143;
+    font-size: medium;
+    font-weight: 500; 
+    color:#eddcd9;
+    align-content: center;
+}
+
+.delete-button:hover {
+    background: #e99f4c; 
+    border: 1px solid #de5499;
+    color: #f2ebe9;
+}

@@ -1,0 +1,35 @@
+
+body {
+    background-color: #fdebe9;
+    align-items: center;
+}
+
+.admin-main-container {
+    align-self: center;
+    justify-content: space-between;
+    display:flex;
+    flex-direction: row;
+    width: 740px;
+    height: 750px;
+    padding: 1px;
+    margin: 1px;
+    margin-top: 50px;
+}
+
+.admin-button{
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 20px 20px;
+    background-color: #264143;
+    font-size: medium;
+    font-weight: 500; 
+    color:#eddcd9;
+    align-content: center;
+}
+
+.admin-button:hover {
+    background: #e99f4c; 
+    border: 1px solid #de5499;
+    color: #f2ebe9;
+}

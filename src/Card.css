@@ -1,0 +1,39 @@
+
+.card-container {
+    display: flex;
+    flex-direction: column; /* Display everything in a single row */
+    width: 500px;
+    height: 700px;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-color: #eddcd9;
+    border-color: #264126;
+    border-style: solid;
+    padding: 4%;
+  }
+
+.avatar-image{
+    height: 350px;
+}
+
+.name {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    font-weight: thin;
+    color: #eddcd9; 
+    text-align: center;
+    padding: 0.2em;
+    border-radius: 20px;
+}
+
+.bio {
+    height: 300px;
+    font-size: x-large;
+    font-weight: thin;
+    color:#264126;
+    font-family: 'Arial';
+}
+
+h1 {
+    color:#eddcd9;
+}

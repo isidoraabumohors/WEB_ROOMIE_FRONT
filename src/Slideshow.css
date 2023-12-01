@@ -1,0 +1,18 @@
+/* Style the slideshow container */
+.slideshow {
+    width: 800px; /* Set the width of the slideshow container */
+    height: 600px; /* Set the height of the slideshow container */
+    overflow: hidden; /* Hide any overflow if images are larger */
+  
+    /* Add other styling as needed for positioning and appearance */
+  }
+  
+  /* Style the slide image */
+  .slide-image {
+    width: 100%; /* Make the image width fill the container */
+    height: 100%; /* Make the image height fill the container */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+  
+    /* Add other styling as needed for the image */
+  }
+  

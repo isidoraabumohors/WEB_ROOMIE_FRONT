@@ -1,0 +1,59 @@
+body{
+  background-color: #f2ebe9;
+}
+
+.no-matches-message{
+  margin-top: 30px;
+  font-size: 40px;
+}
+
+.match{
+  margin: 40px;
+}
+
+.matched-name{
+  color: #264143;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  font-size: 60px;
+}
+
+.your-matches-container{
+  margin-top: 80px;
+  text-align: center;
+  background-color: #eddcd9;
+  padding: 10%;
+  width: auto;
+  height: auto;
+  border-radius: 5%;
+}
+
+.profile-button{
+  background-color: #264143;
+    size: medium;
+    border-radius: 5%;
+    padding: 2%;
+    color: #eddcd9;
+}
+
+.profile-button:hover{
+  background-color: #e99f4c;
+    border: 1px solid #de5499;
+    color: #eddcd9;
+}
+
+
+.back-button {
+  margin-top: 30px;
+  padding: 2%;
+  background-color: #264143;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.back-button:hover{
+  background-color: #e99f4c;
+    border: 1px solid #de5499;
+    color: #eddcd9;
+}

@@ -1,0 +1,93 @@
+body{
+    background-color: #f2ebe9;
+}
+
+h1 { color: #264143; 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 75px;
+    font-weight: bold; 
+    letter-spacing: 2px; 
+    line-height: 1; 
+    text-align: center; }
+
+h3 {
+    color:#264143;
+    size: medium;
+}
+
+h4 {
+    font: 'Arial';
+}
+
+p {
+    font-family: 'Helvetica Neue'; 
+    font-size: x-large;
+    letter-spacing: -2px;
+    font-weight: 500; 
+    color:#264143
+}
+
+input {
+    color: #264143; 
+}
+
+.mainpage{
+    margin: 50px;
+}
+
+.main{
+    align-self:center;
+}
+
+.registration-form{
+    background-color: #eddcd9;
+    padding: 10%;
+    width: 800px;
+    margin-top: 60px;
+}
+
+.field-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Helvetica Neue'; 
+    font-size: x-large;
+    letter-spacing: -2px;
+    font-weight: 500; 
+    color:#264143;
+    height: 60px;
+    width: 800px;
+}
+
+.field-container > input{
+    width: 65%;
+    height: 40px;
+    border-radius: 5px;
+    border: 3px solid #e99f4c;
+    padding: 0 10px;
+    margin: 10px 0;
+    background-color: #f2ebe9;
+    font-size: medium;
+}
+
+.button{
+    width: 20%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 20px 20px;
+    background-color: #264143;
+    font-size: medium;
+    font-weight: 500; 
+    color:#eddcd9;
+    align-content: center;
+}
+
+.error-message{
+    color:rgb(214, 68, 102);
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}

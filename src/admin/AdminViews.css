@@ -1,0 +1,78 @@
+
+body {
+    background-color: #fdebe9;
+    align-items: center;
+}
+
+.views-table{
+    width: 800px;
+}
+
+.admin-button{
+    width: 100px;
+    height: 60px;
+    border-radius: 5px;
+    margin: 20px 20px;
+    background-color: #264143;
+    font-size: medium;
+    font-weight: 500; 
+    color:#eddcd9;
+    align-content: center;
+}
+
+.button:hover {
+    background: #e99f4c; 
+    border: 1px solid #de5499;
+    color: #f2ebe9;
+}
+
+.table-text{
+    color: #264143;
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 20px;
+    font-weight: bold; 
+    line-height: 1; 
+    text-align: center; 
+}
+
+.edit-admin-tag{
+    color: #264143;
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 20px;
+    font-weight: bold; 
+    line-height: 1; 
+    padding: 10px 10px;
+}
+
+.edit-admin-box{
+    width: 200px;
+    height: 30px;
+    margin: 20px 20px;
+    background-color: #eddcd9;
+    font-size: medium;
+    font-weight: 500; 
+    color:#264143;
+    align-content: center;
+}
+
+.admin-button-principal{
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+    margin: 20px 20px;
+    background-color: #264143;
+    font-size: medium;
+    font-weight: 500; 
+    color:#eddcd9;
+    align-content: center;
+}
+
+.error-message {
+    color: rgb(214, 68, 102);
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+
